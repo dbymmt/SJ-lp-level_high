@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #imgフォルダをgitにあげない
 img/
 #回答はあげない
 referrence/
+=======
+#imgを無視
+img/
+>>>>>>> f1fc5bf1ad6faa9d8f3adfc562fd0b6c2d08a4d0
