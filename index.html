@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="js/hamburger_menu.js"></script>
     <title>Document</title>
 </head>
+<!-- 
+    <方針>
+    header->全体navで囲う)
+        imgのdivとulli...をflexで横る
+        ifSP imgのdivとハンバーガーメニューだけ
+        一回divimg, ulli, ハンバーガーを書き出す
+        cssでpcならメニューのみ、spならハンバーガーのみにする
+        ハンバーガー押された時のクラス名を注意しないとダメだな・・・
+
+ -->
 <body>
+    <!-- header -->
+    <header>
+        <div class="header__img_div">
+            <img src="img/logo.png" alt="ロゴ画像">
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+              
+        <!-- <nav class="globalMenuSp"> -->
+        <nav class="globalMenuSp">
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <!-- </nav> -->
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
     
 </body>
 </html>
