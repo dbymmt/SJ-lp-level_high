@@ -1,0 +1,11 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 234, 255);
+    height: 300px;
+    width: 300px;
+}
+li {
+    background-color: yellow;
+}
