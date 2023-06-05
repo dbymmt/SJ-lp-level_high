@@ -1,0 +1,60 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+.container {
+  display: grid;
+/*   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem; */
+  grid-template-areas:
+    "Red Yellow"
+    "Blue Yellow";
+}
+
+.container div {
+  padding: 1rem; /* 追記 */
+}
+
+.red {
+  background-color: mistyrose;
+  grid-area: Red;
+}
+
+.blue {
+  background-color: paleturquoise;
+  grid-area: Blue;
+}
+
+.yellow {
+  background-color: moccasin;
+  grid-area: Yellow;
+}
+
+.daddy {
+  background-color: limegreen;
+  width: 400px;
+  height: 400px;
+/*   position: relative; */
+}
+
+.wanderer,
+.brother {
+  width: 100px;
+  height: 100px;
+}
+
+.wanderer {
+  background-color: gold;
+  position: fixed;
+  bottom: 30px;
+  left: 50px;
+}
+
+.brother {
+  background-color: greenyellow;
+}
