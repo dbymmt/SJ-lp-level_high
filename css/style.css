@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #00abae;
+    
+}
+
 /* index-header */
 header {
     height: 70px;
@@ -66,6 +75,12 @@ nav.globalMenuSp ul li:last-child a{
     line-height: 60px;
     font-weight: 700;
 }
+
+/* index_About */
+
+
+
+/* index_Service */
 
 
 /* SP用 */
