@@ -1,3 +1,4 @@
+
 ul {
     list-style-type:none;
 /*     display: flex; */
@@ -5,14 +6,16 @@ ul {
     height: 300px;
     width: 300px;
 }
+li:last-of-type{
+    padding:0;
+}
 li {
     height:50px;
+    width: 50px;
+    padding: 30px;
     border: 1px solid #000;
-    margin: auto;
 }
 li p{
     background-color: yellow;
     border: 1px solid #fff;
-/*     text-align: center; */
-    padding: 10px;
 }

@@ -5,7 +5,11 @@ h2 {
     font-size: 30px;
     line-height: 45px;
     text-align: center;
-    color: #00abae;    
+    color: #00abae;
+}
+
+section {
+    margin-top: 30px;
 }
 
 /* index-header */
@@ -76,8 +80,35 @@ nav.globalMenuSp ul li:last-child a{
 }
 
 /* index_About */
+.index_about__desc_div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
 
+.index_about__desc_img_div{
+    display: flex;
+/*     jusify-content: center; */
+    align-items: center;
+    width: 45%;
+}
 
+.index_about__desc_img_div img {
+    width: 100%;
+}
+
+.index_about__desc_body_div {
+    width: 45%;
+    padding: 5px;
+}
+
+.index_about__desc_body_div h4+p {
+    line-height:1.5em;
+}
+
+.index_about__desc_body_div h4{
+    margin-bottom: 10px;
+}
 
 /* index_Service */
 
