@@ -120,11 +120,15 @@ nav.globalMenuSp ul li:last-child a{
 .index_service {
     background-color: #EEF8FA;
     height: 665px;
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+.index_service h2 {
+    margin-bottom: 30px;
 }
 
 .index_service_card_div {
-    height: 510px;
+    height: 458px;
 }
 
 .index_service__card_list_frame {
@@ -137,7 +141,27 @@ nav.globalMenuSp ul li:last-child a{
     width: 310px;
 }
 
+.index_service__card_list_img {
+    height: 200px;
+}
+
+.index_service__card_list_img img{
+    width: 100%;
+}
+
+.index_service__card_list_desc_div{
+}
+
+.index_service__card_list_desc_div h5 {
+    margin-bottom: 30px
+}
+
+.index_service__card_list_desc_div p {
+    
+}
+
 /* index_news */
+
 
 
 /* index_contact */
