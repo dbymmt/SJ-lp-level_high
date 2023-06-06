@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+header, main, footer {
+    max-width: 1100px;
+}
+
 h2 {
     font-weight: 700;
     font-size: 30px;
@@ -79,7 +83,8 @@ nav.globalMenuSp ul li:last-child a{
     font-weight: 700;
 }
 
-/* index_About */
+/* index_about */
+
 .index_about__desc_div{
     display: flex;
     margin-top: 10px;
@@ -112,12 +117,40 @@ nav.globalMenuSp ul li:last-child a{
 
 /* index_Service */
 
+.index_service {
+    background-color: #EEF8FA;
+    height: 665px;
+    padding-top: 50px;
+}
+
+.index_service_card_div {
+    height: 510px;
+}
+
+.index_service__card_list_frame {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.index_service__card_list_frame li {
+    width: 310px;
+}
+
+/* index_news */
+
+
+/* index_contact */
+.index_contact {
+    height: 450px;
+    background-color: #EEF8FA;
+}
 
 
 /* SP用 */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
 
-    /* index_header */
+/* index_header */
     header {
         width: 100vw;
     }
@@ -223,7 +256,8 @@ nav.globalMenuSp ul li:last-child a{
     
     }
 
-    /* index_main */
+/* index_front_img */
+    
     .main__front_img_div{
         width: 100vw;
     }
@@ -237,5 +271,21 @@ nav.globalMenuSp ul li:last-child a{
         left: 0;
         line-height: 3em;
     }
+
+/* index_about  */
+
+
+/* index_service */
+.index_service {
+    height: 2024px;
+}
+
+/* index_news */
+
+
+/* index_contact */
+
+
+/* footer */
 
 }
