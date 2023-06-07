@@ -37,6 +37,7 @@ nav.globalMenuSp {
 nav.globalMenuSp ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav.globalMenuSp ul li {
@@ -47,9 +48,7 @@ nav.globalMenuSp ul li a{
     display: block;
 }
 
-nav.globalMenuSp ul li:last-child{
-    padding: 0 50px;
-}
+nav.globalMenuSp ul li:last-child{}
 nav.globalMenuSp ul li:last-child a{
     padding: 20px 20px;
     border-radius: 20px;
@@ -128,7 +127,6 @@ nav.globalMenuSp ul li:last-child a{
 }
 
 .index_service_card_div {
-
     height: 458px;
 }
 
@@ -185,20 +183,15 @@ nav.globalMenuSp ul li:last-child a{
 }
 
 .index_news a:first-of-type p{
-    display: block;
-    margin-left: initial;
-    padding: 10px 0px;
+        display: inline-block;
+        margin-left: 70px;
+        padding: 10px 0px;
 }
 
 .index_news__time {
-    width: 10vw;
-    text-align: center;
-    background-color: #eee;
-    font-size: 10px;
-    line-height:15px;
-    padding: 5px;
-    border-radius: 10px;
+    background-color: #eee;border-radius: 30px;
 }
+
 .index_news__title {
     margin-left: 70px;
 }
@@ -248,14 +241,14 @@ footer {
 /* SP用 */
 @media screen and (max-width: 760px){
 
-header, main, footer {
-    width: 100vw;
-}
+    header, main, footer {
+        width: 100vw;
+    }
 
-section {
-    width: 95vw;
-    margin: auto;
-}
+    section {
+        width: 95vw;
+        margin: auto;
+    }
     
 /* index_header */
 
@@ -319,6 +312,7 @@ section {
         /* color: #fff; */
         /* background: rgba(0,0,0,0.7); */
         background: #E8E8E8;
+        padding-top: 60px;
         text-align: center;
         width: 80vw;
         height: 100vh;
@@ -332,7 +326,7 @@ section {
     
     nav.globalMenuSp ul li {
         list-style-type: none;
-        padding: 0;
+        padding: 10px 0;
         width: 100%;
         transition: .4s all;
     }
@@ -351,12 +345,13 @@ section {
     }
 
     nav.globalMenuSp ul li:last-child a{
+    margin: auto;
+    width: 80px;
     }
     
     /* このクラスを、jQueryで付与・削除する */
     nav.globalMenuSp.active {
-        opacity: 100;
-    
+        opacity: 0.9;
     }
 
 /* index_front_img */
@@ -433,13 +428,29 @@ section {
 /* index_news */
 
     .index_news a:first-of-type {
-    height: initial;
-    width: 95vw;
-    margin: initial;
+        height: initial;
+        width: 95vw;
+        margin: initial;
+    }
+
+    .index_news a:first-of-type p{
+        display: block;
+        margin-left: initial;
+        padding: 10px 0px;
+    }
+
+    .index_news__time {
+        width: 10vw;
+        text-align: center;
+        background-color: #eee;
+        font-size: 10px;
+        line-height:15px;
+        padding: 5px;
+        border-radius: 10px;
     }
 
     .index_news a:last-of-type{
-    margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
 /* index_contact */
