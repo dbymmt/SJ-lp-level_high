@@ -4,12 +4,17 @@ header, main, footer {
     max-width: 1100px;
 }
 
-h2 {
+.section_title {
     font-weight: 700;
     font-size: 30px;
     line-height: 45px;
     text-align: center;
     color: #00abae;
+    border-bottom: 1px solid #00abae;
+}
+
+h2::after {
+    content:"";
 }
 
 section {
