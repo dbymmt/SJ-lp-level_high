@@ -5,16 +5,22 @@ header, main, footer {
 }
 
 .section_title {
+    display: inline-block;
     font-weight: 700;
     font-size: 30px;
     line-height: 45px;
-    text-align: center;
+/*     text-align: center; */
     color: #00abae;
-    border-bottom: 1px solid #00abae;
+    position: relative;
 }
 
-h2::after {
+.section_title::before {
     content:"";
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    border-bottom: 1px solid #00abae;
 }
 
 section {
@@ -89,6 +95,20 @@ nav.globalMenuSp ul li:last-child a{
 
 /* index_about */
 
+.index_about .section_title {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.index_about .section_title::before {
+    position: absolute;
+    left: 48%;
+    width: 4%;
+}
+
+
 .index_about__desc_div{
     display: flex;
     margin-top: 10px;
@@ -127,8 +147,18 @@ nav.globalMenuSp ul li:last-child a{
     padding-top: 30px;
 }
 
-.index_service h2 {
+.index_service .section_title {
+    display: block;
+    text-align: center;
     margin-bottom: 30px;
+    position: relative;
+}
+
+.index_service .section_title::before{
+    content: "";
+    position: absolute;
+    left: 46%;
+    width: 8%;
 }
 
 .index_service_card_div {
