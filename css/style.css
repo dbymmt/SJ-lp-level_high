@@ -188,9 +188,9 @@ nav.globalMenuSp ul li:last-child a{
 }
 
 .index_news a:first-of-type p{
-        display: inline-block;
-        margin-left: 70px;
-        padding: 10px 0px;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 10px 0px;
 }
 
 .index_news__time {
@@ -217,6 +217,12 @@ nav.globalMenuSp ul li:last-child a{
     padding-top: 40px;
     background-color: #EEF8FA;
     text-align: center;
+}
+
+.index_contact h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 45px;    
 }
 
 .index_contact__comment {
